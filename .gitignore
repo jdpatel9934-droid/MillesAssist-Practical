@@ -1,0 +1,85 @@
+
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+
+# ==============================
+# NestJS build output
+# ==============================
+dist/
+build/
+.nest/
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# TypeScript
+# ==============================
+*.tsbuildinfo
+
+# ==============================
+# TypeORM
+# ==============================
+# Generated migration files should NOT be ignored.
+# Keep migrations tracked in Git.
+
+# ==============================
+# PostgreSQL / Local databases
+# ==============================
+*.dump
+*.backup
+*.sql.gz
+
+# Ignore local database data directories if used
+pgdata/
+postgres-data/
+
+# ==============================
+# Testing
+# ==============================
+coverage/
+.nyc_output/
+
+# ==============================
+# IDEs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Caches and temporary files
+# ==============================
+.cache/
+.eslintcache
+.tmp/
+temp/
+tmp/
+
+# ==============================
+# Optional package manager files
+# ==============================
+# Keep package-lock.json / yarn.lock / pnpm-lock.yaml tracked.
